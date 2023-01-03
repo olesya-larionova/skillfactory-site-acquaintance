@@ -1,0 +1,149 @@
+@font-face {
+    src: url('../fonts/Battambang-Regular.ttf');
+    font-family: "Battambang";
+    font-weight: 400;
+    font-style: "normal";
+}
+
+@font-face {
+    src: url('../fonts/Inter-VariableFont_slnt,wght.ttf');
+    font-family: "Inter";
+    font-weight: 700;
+    font-style: "bold";
+}
+
+@font-face {
+    src: url('../fonts/Inter-VariableFont_slnt,wght.ttf');
+    font-family: "Inter";
+    font-weight: 400;
+    font-style: "normal";
+}
+
+
+.body {
+    max-width: 1280px;
+    background-color: #fce2ca;
+}
+
+.block {
+    display: flex;
+    flex-direction:row;
+    align-content:stretch;
+    flex-wrap:wrap;
+}
+
+.info {
+    display: block;
+    width: 60%;
+    font-family: "Battambang-Regular", "Times New Roman Cyr", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.info-my-photo {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    width: 40%;
+}
+.info-1 {
+    display: block;
+    width: 50%;
+    margin-left: 20px;
+    font-family: "Battambang-Regular", "Times New Roman Cyr", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.h1 {
+    color: #cc6402;
+    margin-left: 10px;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+.h2 {
+    color: #96034c;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 100px;
+    border-left: 5px dotted rgb(85, 3, 81);
+    padding-left: 10px;
+    }
+.h2_1 {
+    color: #660101;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+.h3 {
+    color: #cc0101;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+}
+.my-photo {
+    background-color: #f19e4f;
+    padding: 10px; 
+    border: 6px double #cc6402;
+    width: 300px;
+}
+.my-photo:hover {
+    position: relative;
+    z-index: 1;
+    border: 6px double #990241;
+    background-color: #ec85b9;
+    width: 600px;
+}
+a:hover {
+    color: rgb(240, 9, 9);
+}
+.my-pet-img {
+    background-color: #7a6865;
+    padding: 10px; 
+    border: 6px ridge #680319;
+    width: 300px;
+    display: none;
+         }
+a.my-pet-text:hover+div {
+    display: block;
+    margin-left: 400px;
+    margin-top: 20px;
+    }
+.roses { 
+    border: 6px ridge #96034c;
+    margin-left: 100px;
+    width: 150px;
+    }
+.roses:hover {
+    width: 300px;
+}
+.nav {
+    display: flex;
+    justify-content:space-around;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.contacts-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.contacts {
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
